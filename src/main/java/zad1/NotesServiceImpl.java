@@ -1,6 +1,7 @@
 package zad1;
 
 import java.util.Collection;
+import java.util.List;
 
 public class NotesServiceImpl implements NotesService {
 
@@ -28,6 +29,10 @@ public class NotesServiceImpl implements NotesService {
     @Override
     public void clear() {
         storageService.clear();
+    }
+
+    public List<Note> getList(String name){
+        return storageService.getAllNotesOf(name);
     }
 
     private NotesServiceImpl(final NotesStorage storageService) {

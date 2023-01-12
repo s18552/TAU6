@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MockNotesStorage implements NotesStorage {
 
-    private List<Note> notes = new ArrayList<>();
+    private final List<Note> notes = new ArrayList<>();
 
     @Override
     public void add(Note note){
