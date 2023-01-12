@@ -31,7 +31,7 @@ class CarTest {
     public void test_stubbing_mock() {
         expect(myFerrari.needsFuel()).andReturn(true);
         replay(myFerrari);
-        assertFalse(myFerrari.needsFuel());
+        assertTrue(myFerrari.needsFuel());
 
     }
 
