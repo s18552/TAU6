@@ -1,2 +1,2 @@
 # TAU6
-![example workflow](https://github.com/s18552/TAU6/actions/workflows/main.yml/badge.svg)
+[![Java CI with Maven](https://github.com/s18552/TAU6/actions/workflows/maven.yml/badge.svg?event=project)](https://github.com/s18552/TAU6/actions/workflows/maven.yml)
