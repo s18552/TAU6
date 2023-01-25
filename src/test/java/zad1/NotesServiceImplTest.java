@@ -12,7 +12,7 @@ class NotesServiceImplTest {
     private NotesServiceImpl notesService;
 
     @BeforeEach
-    public void setup(){
+    public void setPp(){
         NotesStorage notesStorage = new MockNotesStorage();
         this.notesService=NotesServiceImpl.createWith(notesStorage);
     }

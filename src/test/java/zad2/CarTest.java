@@ -3,8 +3,7 @@ package zad2;
 import org.easymock.EasyMock;
 import org.junit.jupiter.api.Test;
 
-import static org.easymock.EasyMock.expect;
-import static org.easymock.EasyMock.replay;
+import static org.easymock.EasyMock.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CarTest {
